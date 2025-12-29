@@ -50,13 +50,14 @@ src/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/Maycomc01/________________
+git clone https://github.com/Maycomc01/Entrega_Final_React_Castillo.git
+
 ```
 
 2. Entrar al proyecto
 
 ```bash
-cd ________________________________________
+cd Entrega_Final_React_Castillo.git
 ```
 
 3. Instalar Dependencias
