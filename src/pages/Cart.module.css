@@ -1,0 +1,137 @@
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  display: flex;
+  gap: 12px;
+  border: 1px solid #fdb7ea;
+  padding: 12px;
+  border-radius: 10px;
+  align-items: center;
+  background: #fdb7ea;
+}
+
+.thumb {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.info {
+  flex: 1;
+  background-color: #fdb7ea;
+}
+
+.name {
+  background-color: #fdb7ea;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.price {
+  background-color: #fdb7ea;
+  margin-top: 6px;
+  font-size: 1.05rem;
+  color: #333;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background-color: #fdb7ea;
+}
+
+.smallBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.smallBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.qty {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 700;
+  background-color: #fdb7ea;
+}
+
+.removeBtn {
+  margin-left: 8px;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.summary {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.clearBtn {
+  background: #ffdccc;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.clearBtn:hover {
+  background: #e6c7b8;
+}
+
+.checkoutBtn {
+  background: #fdb7ea;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.checkoutBtn:hover {
+  background: #e09ed1;
+}
+
+.checkoutBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

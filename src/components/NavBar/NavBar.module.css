@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  background-color: violet;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+  background-color: violet;
+  color: black;
+}
+
+.presentacion {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  height: 90px;
+  width: 90px;
+  border-radius: 35px;
+}
+
+.nombre {
+  padding: 15px;
+  font-size: 2.5rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+
+.activeLink {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;}
